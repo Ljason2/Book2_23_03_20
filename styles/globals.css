@@ -1,0 +1,1423 @@
+/* 리셋 */
+@charset "UTF-8";
+html {
+  font-size: 18px;
+}
+/* CSS Document */
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 1rem;
+  vertical-align: baseline;
+  background: transparent;
+  font-weight: normal;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+/* 리셋 */
+
+/* Home, 최신책 리뷰 스타일*/
+
+a {
+  color: black;
+}
+
+body {
+  /*background-color:  steelblue; #6BBBF4;*/
+  font-size: 50px;
+}
+
+#__next {
+  /*background-color:   steelblue;  #6BBBF4;*/
+}
+
+#__next > div > main > header {
+  padding: 25px;
+  background-color: #333;
+
+  /* border-bottom: 1px solid cadetblue; */
+}
+
+#__next > div > main > header > div {
+  width: 1600px;
+  /* display: flex;
+   justify-content: space-between;
+   align-items: center; */
+  margin: 0 auto;
+}
+#__next > div > main > header > div > h1 {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 37px;
+}
+#__next > div > main > header > div > h1 > a {
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+}
+
+#__next > div > main > header > div > nav {
+}
+#__next > div > main > header > div > nav > ul {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+#__next > div > main > header > div > nav > ul > li {
+  display: flex;
+  align-items: center;
+  margin: 0 30px;
+}
+
+#__next > div > main > header > div > nav > ul > li > a {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+#article5 {
+  margin: 100px 0;
+}
+
+#article5 > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto 20px;
+}
+
+#article5 > div > div > h2 {
+  line-height: 70px;
+  font-size: 40px;
+  border-left: 1px solid black;
+  padding-left: 30px;
+}
+
+#article5 > div > div > h2 > span {
+  font-weight: bold;
+  color: black;
+}
+
+#article5 > div > div > dl {
+  border-top: 1px solid #ccc;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+
+#article5 > div > div > dl > dt {
+  margin-bottom: 20px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+#article5 > div > div > dl > dt > a {
+  color: black;
+  font-weight: bold;
+}
+
+#article5 > div > div > dl > dt > a:hover {
+  color: cadetblue;
+}
+
+#article5 > div > div > dl > dd {
+  color: #acaaaa;
+}
+
+#article5 > div > div > dl:nth-child(3) > dd {
+  margin-bottom: 80px;
+}
+
+#article5 > div > div > a > button {
+  border: 1px solid #ccc;
+  width: 100px;
+  height: 38px;
+  color: #646464;
+  cursor: pointer;
+}
+
+#article5 > div > div > a > button:hover {
+  background-color: cadetblue;
+}
+
+#mainOutline {
+  background-color: aliceblue;
+}
+
+#mainOutline > #main {
+  width: 1024px;
+  margin: 50px auto 0;
+  padding: 90px;
+  font-size: 16px;
+}
+
+#mainOutline > #main > h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #333;
+  margin-bottom: 45px;
+}
+
+#bookReview > header {
+  background-color: #333;
+  padding: 20px 0;
+}
+#bookReview > header > div {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#bookReview > header > div > h1 > a {
+  text-align: right;
+  padding: 46px 100px 0 0;
+}
+
+#bookReview > header > div > h1 > a {
+  font-size: 64px;
+  color: white;
+}
+
+#bookReview > #reviewh1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1196px;
+  margin: 0 auto;
+}
+
+#bookReview > #reviewh1 > h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #333;
+  margin: 50px auto;
+  border: 3px solid white;
+  width: 600px;
+  line-height: 100px;
+  font-weight: bold;
+}
+
+#bookReview > #reviewh1 > h1 > a {
+  color: #333;
+  font-weight: bold;
+}
+
+#reviewFigure {
+  width: 1200px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto 113px;
+}
+
+#reviewFigure > img {
+  margin-right: 100px;
+}
+
+#reviewFigure > figcaption {
+  color: white;
+  margin: 0 auto;
+  font-size: 30px;
+}
+
+#reviewFigure > figcaption > dl > dt {
+  margin-bottom: 43px;
+}
+
+#reviewFigure > figcaption > dl > dd {
+  font-size: 16px;
+  margin: 0 600px;
+  color: azure;
+  margin-bottom: 30px;
+  text-align: justify;
+  background-color: dimgray;
+  margin: 0 auto 87px;
+  line-height: 1.5em;
+  padding: 20px;
+}
+
+#reviewFigure > figcaption > dl > p {
+  text-align: right;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#reviewFigure > figcaption > dl > p > a {
+  color: #333;
+  font-weight: bold;
+  display: block;
+  width: 30%;
+  line-height: 50px;
+  border: 1px solid black;
+}
+
+#reviewFigure > figcaption > dl > p > a:hover {
+  background-color: aliceblue;
+}
+
+#line {
+  padding: 30px;
+  border: 1px solid #333;
+}
+
+#mainOutline > #main > #line > table {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+#mainOutline > #main > #line > table > tbody {
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+#line > table > thead > tr {
+  font-size: 25px;
+  font-weight: bold;
+  color: #333;
+
+  border-bottom: 1px solid #333;
+}
+#line > table > thead > tr > th {
+  padding: 10px 0 10px;
+}
+
+#mainOutline > #main > #line > table > tbody tr td {
+  color: #333;
+}
+
+#mainOutline > #main > #line > table > tbody tr td > a {
+  color: #333;
+}
+
+#mainOutline > #main > #line > table > tbody > tr > td:hover > a {
+  background-color: yellow;
+}
+
+#category {
+  background-color: rgb(194, 194, 194);
+  margin: 0 auto;
+  padding: 35px 0;
+}
+#category > div {
+  width: 1240px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#category > div > dl {
+  width: 25%;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+#category > div > dl > dt {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+  font-weight: bold;
+}
+
+#category > div > dl > dd > figure {
+  text-align: center;
+}
+
+#category > div > dl > dd > figure > img {
+  margin-bottom: 25px;
+}
+
+#category > div > dl > dd > figure > figcaption {
+  width: 206.5px;
+  text-align: justify;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 12px;
+  color: rgb(225, 223, 223);
+  font-weight: bold;
+}
+
+footer > div {
+  font-size: 15px;
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+footer > div a {
+  margin: 0 5px;
+}
+
+/* Home, 최신책 리뷰 스타일*/
+
+/* Join 스타일 */
+
+#join > header {
+  background-color: #333;
+  padding: 20px 0;
+}
+#join > header > div {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#join > header > div > h1 > a {
+  text-align: right;
+  padding: 46px 100px 0 0;
+}
+
+#join > header > div > h1 > a {
+  font-size: 64px;
+  color: white;
+}
+
+#join > #join2 {
+  width: 35%;
+  margin: 0 auto 150px;
+}
+
+#join > #join2 > form {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border: 1px solid black;
+}
+
+#join > #join2 > form > fieldset {
+  margin-top: 50px;
+}
+
+#join > #join2 > form > fieldset > legend {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#join > #join2 > form > fieldset > legend > h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#join > #join2 > form > fieldset > p {
+  padding: 10px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#join > #join2 > form > fieldset > p > label {
+  font-size: 20px;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+#join > #join2 > form > fieldset > p > input {
+  width: 70%;
+  height: 25px;
+}
+
+#join > #join2 > form > fieldset > #joinButton {
+  margin-top: 20px;
+  flex-direction: column;
+}
+
+#join > #join2 > form > fieldset > #joinButton > input {
+  width: 100%;
+  height: 40px;
+  color: white;
+  font-weight: bold;
+  background-color: black;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#join > #join2 > form > fieldset > #joinButton > input:first-child {
+  border-bottom: 1px solid white;
+}
+
+#join > #join2 > form > fieldset > #joinButton > input:last-child {
+  margin-bottom: 40px;
+}
+
+/* Join 스타일 */
+
+/* Login 스타일 */
+
+#login > header {
+  background-color: #333;
+  padding: 20px 0;
+}
+#login > header > div {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#login > header > div > h1 > a {
+  text-align: right;
+  padding: 46px 100px 0 0;
+}
+
+#login > header > div > h1 > a {
+  font-size: 64px;
+  color: white;
+}
+
+#login > #login2 {
+  width: 30%;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+#login > #login2 > #login3 {
+  border: 1px solid black;
+  padding: 50px;
+}
+
+#login > #login2 > #login3 > form > fieldset {
+  text-align: center;
+}
+
+#login > #login2 > #login3 > form > fieldset > legend {
+  width: 100%;
+  text-align: center;
+}
+
+#login > #login2 > #login3 > form > fieldset > legend > h1 {
+  font-size: 36px;
+  font-weight: bolder;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #717171;
+  padding: 3px;
+  font-weight: bold;
+}
+
+#login > #login2 > #login3 > form > fieldset > legend > h1 > span {
+  margin: 0 83px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#login > #login2 > #login3 > form > fieldset > legend > h1 > span > span {
+  color: black;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#login > #login2 > #login3 > form > fieldset > legend > h1 > img {
+  width: 95.2px;
+  height: 56px;
+}
+
+#login > #login2 > #login3 > form > fieldset > p {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+#login > #login2 > #login3 > form > fieldset > p > label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#login > #login2 > #login3 > form > fieldset > p > input {
+  width: 60%;
+  height: 25px;
+}
+
+#login > #login2 > #login3 > form > fieldset > #logincancel {
+  margin-top: 20px;
+}
+
+#login > #login2 > #login3 > form > fieldset > #logincancel > input {
+  height: 40px;
+  border: 1px solid #ccc;
+}
+
+#login
+  > #login2
+  > #login3
+  > form
+  > fieldset
+  > #logincancel
+  > input:first-child {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+#login > #login2 > #login3 > form > fieldset > #logincancel > input:last-child {
+  background-color: white;
+  cursor: pointer;
+}
+
+#login > #login2 > #login3 > form > fieldset > #security > label {
+  margin-bottom: 13px;
+  margin-top: 13px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+#login > #login2 > #login3 > form > fieldset > #security > label > input {
+  cursor: pointer;
+}
+
+#login > #login2 > #login3 > form > fieldset {
+  margin-bottom: 25px;
+  border-bottom: 1px solid #ccc;
+}
+
+#login > #login2 > #login3 > #simpleLogin {
+  text-align: center;
+}
+
+#login > #login2 > #login3 > #simpleLogin > p {
+  margin-bottom: 40px;
+}
+
+#login > #login2 > #login3 > #simpleLogin > div {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#login > #login2 > #login3 > #simpleLogin > div > a > img {
+  margin: 2.5px 5px;
+}
+
+#login > #login2 > #login3 > #signup > .btns {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#login > #login2 > #login3 > #signup > .btns > a:first-child > button {
+  background-color: black;
+  color: white;
+  border: 1px solid #ccc;
+  padding: 15px;
+  line-height: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 130px;
+  margin-bottom: 1px;
+  margin-right: 80px;
+}
+
+#login > #login2 > #login3 > #signup > .btns > a:last-child > button {
+  color: #717171;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 15px;
+  line-height: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* Login 스타일 */
+
+/* Review 스타일 */
+
+#reviewPage > header {
+  background-color: #333;
+  padding: 20px 0;
+  margin-bottom: 90px;
+}
+#reviewPage > header > div {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#reviewPage > header > div > h1 > a {
+  text-align: right;
+  padding: 46px 100px 0 0;
+}
+
+#reviewPage > header > div > h1 > a {
+  font-size: 64px;
+  color: white;
+}
+
+#reviewPage > #reviewPage2 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#reviewPage > #reviewPage2 > h1 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#reviewPage > #reviewPage2 > h2 {
+  text-align: center;
+  line-height: 1.5em;
+  font-size: 20px;
+  font-weight: bold;
+  color: #717171;
+  margin-bottom: 50px;
+}
+
+#reviewPage > #reviewPage2 > h2 > span {
+  font-size: 18px;
+}
+
+#reviewPage > #reviewPage2 > #appoint {
+  background-color: #ccc;
+  border: 1px solid #ccc;
+  padding: 30px;
+  width: 35%;
+  margin: 0 auto 90px;
+}
+
+#reviewPage > #reviewPage2 > #appoint > h4 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#reviewPage > #reviewPage2 > #appoint > ul > li {
+  margin-bottom: 30px;
+  line-height: 1.5em;
+}
+
+#reviewPage > #reviewPage2 > #appoint > ul > li:last-child {
+  margin-bottom: 20px;
+}
+
+#reviewPage > #reviewPage2 > #appoint > ul > li > label {
+  display: flex;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#reviewPage > #reviewPage2 > #appoint > ul > li > label > div {
+  margin-right: 5px;
+}
+
+#reviewPage > #reviewPage2 > #appoint > ul > li > input {
+  width: 100%;
+  border: none;
+  height: 30px;
+}
+
+#reviewPage > #reviewPage2 > #appoint > ul > li > select {
+  height: 32px;
+  font-weight: bold;
+}
+
+#reviewPage > #reviewPage2 > #appoint > ul > li > textarea {
+  width: 100%;
+  height: 186px;
+  border: none;
+}
+
+#reviewPage > #reviewPage2 > #appoint > p > button {
+  border: none;
+  width: 101%;
+  height: 30px;
+  background-color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* 모달 */
+
+#reviewPage > #reviewPage2 > #appoint > #alert {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 416px;
+  height: 674px;
+  margin-top: -350px;
+  margin-left: -200px;
+  background-color: aliceblue;
+  z-index: 3000;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  text-align: center;
+}
+
+#reviewPage > #reviewPage2 > #appoint > #alert > div {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+#reviewPage > #reviewPage2 > #appoint > #alert > div > img {
+  width: 206.5px;
+  height: 300px;
+}
+
+#reviewPage > #reviewPage2 > #appoint > #alert > #closeAlert {
+  position: absolute;
+  right: 0;
+  top: -50px;
+  font-size: 40px;
+  color: black;
+  cursor: pointer;
+}
+
+#reviewPage > #reviewPage2 > #appoint > #alert > dl {
+  width: 312px;
+  height: 214px;
+  color: black;
+  border: 5px double black;
+  margin: 0 auto;
+}
+
+#reviewPage > #reviewPage2 > #appoint > #alert > dl div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+#reviewPage > #reviewPage2 > #appoint > #alert > dl div:last-child {
+  border: none;
+}
+
+#reviewPage > #reviewPage2 > #appoint > #alert > dl > dt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  border-bottom: 1px solid black;
+  font-size: 25px;
+  text-shadow: 1px 1px 2px black;
+}
+
+#reviewPage > #reviewPage2 > #appoint > #alert > dl div > dt {
+  width: 50%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+#reviewPage > #reviewPage2 > #appoint > #alert > dl div > dd {
+  width: 50%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+#reviewPage > #reviewPage2 > #search {
+  margin: 0 auto;
+  width: 39%;
+}
+
+#reviewPage > #reviewPage2 > #search > #search2 {
+  margin: 0 auto 50px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+#reviewPage > #reviewPage2 > #search > #search2 > input {
+  width: 65%;
+  border: 1px solid #ccc;
+  line-height: 25px;
+  text-indent: 20px;
+  font-size: 34px;
+  margin-right: 6px;
+}
+
+#reviewPage > #reviewPage2 > #search > #search2 > #searchButton {
+  line-height: 40px;
+  width: 10%;
+  color: black;
+  height: 100%;
+  font-size: 39px;
+  text-shadow: 1px 1px 1px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+#reviewPage > #reviewPage2 > #search > #search2 > #listSort {
+  position: absolute;
+  right: 0;
+  top: 0%;
+  border: none;
+  background-color: tan;
+  width: 12%;
+  color: #fff;
+  height: 100%;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+#reviewPage > #reviewPage2 > #search > #search2 > ul {
+  position: absolute;
+  right: 1px;
+  top: 44px;
+  width: 20%;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid tan;
+  z-index: 100;
+  color: black;
+  text-shadow: 2px 2px 2px rgb(211, 207, 207);
+}
+
+#reviewPage > #reviewPage2 > #search > #search2 > ul > li {
+  padding: 10px;
+  border-bottom: 1px solid tan;
+  cursor: pointer;
+}
+
+#reviewPage > #reviewPage2 > #search > #search2 > ul > li:last-child {
+  border-bottom: none;
+}
+
+#reviewPage > #reviewPage2 > #list > h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#reviewPage > #reviewPage2 > #list > ul > li {
+  border-bottom: 1px solid #ccc;
+  padding: 40px 0;
+}
+
+#reviewPage > #reviewPage2 > #list > ul > li > dl {
+  display: flex;
+}
+
+#reviewPage > #reviewPage2 > #list > ul > li > dl dd {
+  font-size: 18px;
+  line-height: 1.2em;
+}
+#reviewPage > #reviewPage2 > #list > ul > li > dl > div > dd:nth-child(1) {
+  margin-bottom: 20px;
+}
+
+#reviewPage > #reviewPage2 > #list > ul > li > dl > dd:first-child {
+  margin-right: 100px;
+}
+
+#reviewPage > #reviewPage2 > #list > ul > li > dl > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#reviewPage > #reviewPage2 > #list > ul > li > dl > div > dd:nth-child(2) {
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#reviewPage > #reviewPage2 > #list > ul > li > dl > div > dd:nth-child(3) {
+  margin: 0 auto;
+  justify-content: flex-end;
+  text-align: justify;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+#reviewPage > #reviewPage2 > #list > ul > li > dl > div > dd:first-child {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#reviewPage > #reviewPage2 > #list > ul > li > dl > div > div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#reviewPage > #reviewPage2 > #list > ul > li > dl > div > div > button {
+  width: 35%;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* Review 스타일 */
+
+/* WorryList 스타일 */
+
+#question > header {
+  background-color: #333;
+  padding: 20px 0;
+  margin-bottom: 40px;
+}
+#question > header > div {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#question > header > div > h1 > a {
+  text-align: right;
+  padding: 46px 100px 0 0;
+}
+
+#question > header > div > h1 > a {
+  font-size: 64px;
+  color: white;
+}
+
+#question > #question2 {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+#question > #question2 > #question2Top {
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+}
+
+#question > #question2 > #question2Top > h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1em;
+}
+
+#question > #question2 > #question2Top > h1 > span {
+  font-size: 20px;
+  line-height: 1.5em;
+  display: block;
+  margin-top: 30px;
+  color: #717171;
+}
+
+#question > #question2 > .container2 {
+  margin-bottom: 100px;
+}
+
+#question > #question2 > .container2 > p {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 86px;
+  margin-bottom: 86px;
+  text-align: center;
+}
+
+#question > #question2 > .container2 > div > figure {
+  border: 1px solid #ccc;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+
+#question > #question2 > .container2 > div > figure > figcaption > dl > dt {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#question > #question2 > .container2 > div > figure > figcaption > dl > dd {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #333;
+  line-height: 1.67em;
+}
+
+#question
+  > #question2
+  > .container2
+  > div
+  > figure
+  > figcaption
+  > dl
+  > dd:nth-child(3) {
+  text-align: right;
+}
+
+#question
+  > #question2
+  > .container2
+  > div
+  > figure
+  > figcaption
+  > dl
+  > dd:nth-child(3) {
+}
+
+#question
+  > #question2
+  > .container2
+  > div
+  > figure
+  > figcaption
+  > dl
+  > dd:nth-child(4) {
+  line-height: 1.67em;
+}
+
+#question
+  > #question2
+  > .container2
+  > div
+  > figure
+  > figcaption
+  > dl
+  > dd:nth-child(5) {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+#question
+  > #question2
+  > .container2
+  > div
+  > figure
+  > figcaption
+  > dl
+  > dd:nth-child(5)
+  > a {
+  display: block;
+  width: 300px;
+  text-align: center;
+  background-color: #ccc;
+  line-height: 41px;
+  border: 1px solid #717171;
+}
+
+#question
+  > #question2
+  > .container2
+  > div
+  > figure
+  > figcaption
+  > dl
+  > dd:nth-child(5)
+  > a {
+  color: #717171;
+  display: block;
+}
+/* WorryList 스타일 */
+
+/* Worry 스타일 */
+
+#commentOutline > header {
+  background-color: #333;
+  padding: 20px 0;
+  margin-bottom: 50px;
+}
+#commentOutline > header > div {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#commentOutline > header > div > h1 > a {
+  text-align: right;
+  padding: 46px 100px 0 0;
+}
+
+#commentOutline > header > div > h1 > a {
+  font-size: 64px;
+  color: white;
+}
+
+#comment {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+#comment > h1 {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  height: 123px;
+  font-weight: bold;
+}
+
+#comment > figure {
+  border: 1px solid #ccc;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+
+#comment > figure > figcaption > dl > dt {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+#comment > figure > figcaption > dl > dd {
+  font-size: 16px;
+  line-height: 1.67em;
+}
+
+#comment > figure > figcaption > dl > dd:nth-child(3) {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 50px;
+}
+
+#comment > figure > figcaption > dl > dd:nth-child(4) {
+  margin-top: 50px;
+  line-height: 1.5em;
+}
+
+#comment > figure > figcaption > dl > dd:nth-child(5) {
+  width: 100%;
+  text-align: center;
+  background-color: #ccc;
+  line-height: 41px;
+  border: 1px solid #717171;
+  margin-bottom: 50px;
+}
+
+#comment > figure > figcaption > dl > dd:nth-child(5) > a {
+  color: #717171;
+  display: block;
+}
+
+#comment > .answer {
+  margin-bottom: 100px;
+}
+
+#comment > .answer > h1 {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  height: 123px;
+  font-weight: bold;
+}
+
+#comment > .answer > dl {
+  border: 1px solid #ccc;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+
+#comment > .answer > dl > dt {
+  font-size: 16px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 50px;
+  color: #717171;
+}
+
+#comment > .answer > dl > dt > span {
+  font-size: 16px;
+  color: black;
+}
+
+#comment > .answer > dl > dd {
+  font-size: 16px;
+  line-height: 1.67em;
+  margin-top: 42px;
+}
+
+/* Worry 스타일 */
