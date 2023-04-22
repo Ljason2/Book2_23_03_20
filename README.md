@@ -12,9 +12,9 @@
 
 
 ## :lips:개발언어
-- React, jquery, javascript, html5, css
+- Next.js, React, JavaScript, CSS3, Vercel
 
-<img src="https://jason-img.s3.amazonaws.com/mdoc/react.png" style="width:100px"> <img src="https://jason-img.s3.amazonaws.com/mdoc/jquery2.jpg" style="width:58px"> <img src="https://jason-img.s3.amazonaws.com/mdoc/js.png" style="width:56px"> <img src="https://jason-img.s3.amazonaws.com/mdoc/html5.png" style="width:56px"> <img src="https://jason-img.s3.amazonaws.com/mdoc/css.png" style="width:56px">
+<img src="https://jason-img.s3.amazonaws.com/mdoc/NEXT.JS.png" style="width:75px"> <img src="https://jason-img.s3.amazonaws.com/mdoc/react.png" style="width:100px"> <img src="https://jason-img.s3.amazonaws.com/mdoc/js.png" style="width:56px"> <img src="https://jason-img.s3.amazonaws.com/mdoc/css.png" style="width:56px"> <img src="https://jason-img.s3.amazonaws.com/mdoc/Vercel.jpg" style="width:110px">
 
 ## :earth_americas:개발환경
 - VScode, npm, Node.js, AWS:S3
@@ -26,8 +26,8 @@
 
 ## :link:배포링크
 
-- 배포방식은 AWS: S3의 배포방식을 이용하였습니다.
-- [바로가기](https://jason-mdoc-03-06.s3.amazonaws.com/index.html)
+- 배포방식은 Vercel의 배포방식을 이용하였습니다.
+- [바로가기](https://book2-23-03-20.vercel.app/)
 
 
 ## :clipboard:프로젝트 설명
